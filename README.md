@@ -4,4 +4,4 @@ My App
 
 #### License
 
-mit
+mit# myapp
