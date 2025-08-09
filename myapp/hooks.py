@@ -10,12 +10,12 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/myapp/css/myapp.css"
-# app_include_js = "/assets/myapp/js/myapp.js"
+app_include_css = "/assets/myapp/css/myapp.css"
+app_include_js = "/assets/myapp/js/myapp.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/myapp/css/myapp.css"
-# web_include_js = "/assets/myapp/js/myapp.js"
+web_include_css = "/assets/myapp/css/myapp.css"
+web_include_js = "/assets/myapp/js/myapp.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "myapp/public/scss/website"
@@ -226,4 +226,10 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+fixtures = [
+    {
+        "dt": "Report",
+        "filters": [["name", "in", ["Purchase Receipt with Work Orders"]]]
+    }
+]
 

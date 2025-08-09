@@ -1,0 +1,10 @@
+{
+  "report_name": "Purchase Receipt with Work Orders",
+  "ref_doctype": "Purchase Receipt",
+  "report_type": "Script Report",
+  "is_standard": "No",
+  "module": "My App",
+  "filters": [],
+  "disabled": 0
+}
+

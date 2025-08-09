@@ -1,0 +1,49 @@
+
+.list-row-head {
+	background-color: #b13138;
+	/* text-decoration-color: rgb(255, 255, 255);
+	border-style: solid;
+	border-right-color: #b13138;
+	border-top-color: #fff;
+	border-left-color: #b13138;
+	border-bottom-color: #b13138; */
+		}  
+
+/* .search-bar .awesomplete input {
+	visibility: hidden;
+  }
+  
+.search-bar svg {
+	visibility: hidden;
+  } */
+   /* .text-muted , div#driver-popover-item .driver-popover-footer button.driver-close-btn{
+	color: #fffff0 !important;
+  }
+
+.layout-side-section
+  {
+    visibility: hidden;  
+  } */
+ 
+ /* Force the sidebar to be always visible and floating */
+
+/* Keep sidebar visible and expanded */
+.layout-side-section {
+    display: none;
+}
+  .grid-heading-row {
+	color: aliceblue;
+	background-color: #b13138;
+  } 
+  .app-logo {
+	width: 100px !important;
+	height : auto;
+}
+.navbar-home img {
+	max-height: 88px;
+	width: auto;
+  }
+  .level-left {
+	justify-content: flex-start;
+	color: white;
+  }
